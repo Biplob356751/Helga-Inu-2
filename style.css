@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container_fluid{
+    width: 90%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+/*================= header style part start here================*/
+.header{
+    background-color: #fff;
+    padding: 5px 50px;
+    box-shadow: 0px 0px 4px 1px #ececec;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+.header .main_menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header .main_menu .logo{
+    width: 20%;
+}
+.header .main_menu .logo img{
+    height: 70px;
+}
+.header .main_menu .menu{
+    width: 60%
+}
+.header .main_menu .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.header .main_menu .menu ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #f885a3;
+}
+.header .main_menu .menu ul li a:hover{
+    border-bottom: 2px solid #f885a3;
+}
+.header .main_menu .buy_btn{
+    width: 13%;
+    text-align: center;
+}
+.header .main_menu .buy_btn a{
+    padding: 10px 14px;
+    background-color: #2e2b9e;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+.header .main_menu .bar_icon{
+    width: 7%;
+    text-align: right;
+    position: relative;
+    display: none;
+}
+.header .main_menu .bar_icon i{
+    position: absolute;
+    top: -22px;
+    right: 0;
+    font-size: 20px;
+    padding: 6px 12px;
+    border: 2px solid #f885a3;
+    color: #f885a3;
+    cursor: pointer;
+}
+.header .main_menu .bar_icon i:nth-child(2){
+    padding: 6px 15px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/*================= header style part end here================*/
+
+
+/*================= banner style part start here================*/
+.banner_section{
+    padding: 100px 0;
+    background-color: #f885a3;
+    height: 90vh;
+}
+.banner_section .banner_content_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4%;
+}
+.banner_content h1{
+    margin-top: 30px;
+    font-size: 40px;
+    color: #323F52;
+}
+.banner_content_item p{
+    margin-top: 20px;
+    color: #e9e9e9;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.banner_content_item a{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #2e2b9e;
+}
+.banner_image img{
+    width: 100%;
+    animation-duration: 2s;
+    animation-name: aniamte;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes aniamte {
+    0%{
+      transform: translateY(0)
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+  }
+/*================= banner style part end here================*/
+
+/*================= helgainu style part end here================*/
+.helga_inu{
+    padding: 100px 0;
+    background: #fff;
+}
+.helga_inu_content_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1%;
+}
+.helga_inu_content h4{
+    margin-top: 50px;
+    color: #444;
+    font-size: 17px;
+    font-weight: 600;
+}
+.helga_inu_content h1{
+    color: #323F52;
+    font-size: 34px;
+    margin-top: 20px;
+}
+.helga_inu_content h1 span{
+    color: #f885a3;
+}
+.helga_inu_content p{
+    width: 90%;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #444;
+    font-weight: 500;
+}
+.helga_inu_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.helga_inu_item_1{
+    width: 47%;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 1px #f8c5d3;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.helga_inu_item_1 h3{
+    color: #323F52;
+    font-size: 20px;
+    font-weight: 600;
+}
+.helga_inu_item_1 p{
+    margin: 10px;
+    font-size: 14px;
+    color: #444;
+    width: 100%;
+    margin-left: 0;
+}
+
+
+/*================= helgainu style part end here================*/
+
+/*================= feature style part end here================*/
+.feature_section{
+    padding: 80px 0;
+    background-color: #fff;
+}
+.feature_section h1{
+    text-align: center;
+    color: #323F52;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.feature_section h1 span{
+    color: #f885a3;
+}
+.feature_section p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #444;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.feature_item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2%;
+    margin-top: 100px;
+}
+.feature{
+    border: 1px solid #f885a3;
+    border-radius: 5px;
+    padding: 20px;
+}
+.feature img{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+.feature h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #323F52;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.feature p{
+    width: 100%;
+    margin-left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #444;
+}
+/*================= feature style part end here================*/
+
+/*================= benifits style part start here================*/
+.benifit_section{
+    padding: 100px 0;
+    background-color: #fff;
+}
+.benefit_container{
+    width: 55%;
+    margin: auto;
+}
+.benifit_section h1{
+    text-align: center;
+    color: #323F52;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.benifit_section h1 span{
+    color: #f885a3;
+}
+.benifit_section p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+.benefit{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+}
+.benefit ul{
+    position: relative;
+}
+.benefit ul::before{
+    content: '';
+    position: absolute;
+    background-color: #f885a3;
+    width: 2px;
+    height: 100%;
+    top: 0%;
+    left: 3.9%;
+}
+.benefit ul li{
+    position: relative;
+    overflow: hidden;
+}
+.benefit ul li .benefit_item{
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #f885a3;
+    margin-left: 80px;
+    margin-top: 8px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.benefit ul li span{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: #F9FAFB;
+    border-radius: 50%;
+    border: 2px solid #f885a3;
+    text-align: center;
+}
+.benefit ul li h3{
+    color: #323F52;
+    font-size: 20px;
+}
+.benefit ul li p{
+    text-align: left;
+    width: 90%;
+    font-size: 14px;
+    color: #444;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+/*================= benifits style part end here================*/
+
+
+/*================= tokenomics style part start here================*/
+.tokenomics_section{
+    padding: 100px 0;
+    background-color: #2e2b9e;
+}
+.tokenomics_section h1{
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    margin-bottom: 10px;  
+}
+.tokenomics_section h1 span{
+    color: #f885a3;
+}
+.tokenomics_section p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 28px;
+}
+.tokenomics_content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tokenomics{
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 1px #514db9;
+    border-radius: 50px;
+}
+.tokenomics{
+    display: flex;
+}
+.tokenomics img{
+    width: 60%;
+}
+.tokenomics span{
+    font-size: 70px;
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #f885a3;
+}
+.document_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.document{
+    width: 20%;
+    padding: 20px;
+    border: 1px solid #f885a3;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+.document h3{
+    font-size: 20px;
+    color: #fff;
+}
+.document a{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    display: block;
+}
+
+/*================= tokenomics style part end here================*/
+
+/*================= roadmap style part start here================*/
+.road_map_section{
+    padding: 100px 0;
+    background-color: #fff;
+}
+.road_map_section h1{
+    text-align: center;
+    font-size: 34px;
+    color: #323F52;
+    margin-bottom: 10px;
+}
+.road_map_section p{
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+    line-height: 28px;
+}
+.road_map{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.road_map_content_item{
+    width: 23%;
+    box-shadow: 0px 0px 4px 1px #ffedd1;
+    padding: 15px;
+    border-radius: 4px;
+}
+.road_map_content_item .road_1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2e2b9e;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    line-height: 48px;
+    margin: auto;
+}
+
+.road_map_content_item h4{
+    text-align: center;
+    color: #f885a3;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.road_map_content_item .road_map_content{
+    margin-top: 20px;
+}
+.road_map_content_item .road_map_content p{
+    text-align: left;
+    width: 100%;
+    margin-left: 0;
+    font-size: 13px;
+}
+.road_map_content_item .road_map_content p i{
+    margin-right: 10px;
+    color: #2e2b9e;
+    font-size: 18px;
+}
+/*================= roadmap style part end here================*/
+
+
+/*================= buy style part start here================*/
+.buy_section{
+    padding: 100px 0;
+    background-color: #fff;
+}
+.buy_content_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2%;
+}
+.buy_content h1{
+    font-size: 34px;
+    color: #323F52;
+    margin-bottom: 20px;
+}
+.buy_content h1 span{
+    color: #f885a3;
+}
+.buy_content p{
+    width: 90%;
+    font-size: 16px;
+    color: #444;
+    line-height: 28px;
+    font-weight: 500;
+}
+.buy_content a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #2e2b9e;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.buy_tab h2{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #2e2b9e;
+    cursor: pointer;
+}
+.buy_tab .tab_item{
+    margin-bottom: 20px;
+}
+.buy_tab .tab1{
+    padding: 20px;
+    border: 1px solid #2e2b9e;
+    /* display: none; */
+}
+.buy_tab .tab2{
+    padding: 20px;
+    border: 1px solid #2e2b9e;
+    display: none;
+}
+.buy_tab .tab3{
+    padding: 20px;
+    border: 1px solid #2e2b9e;
+    display: none;
+}
+
+
+
+/*================= buy style part end here================*/
