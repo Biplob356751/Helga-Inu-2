@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -20,16 +21,16 @@
             <div class="logo">
                 <a href="#"><img src="image/helgainu.png" alt="logo" /></a>
             </div>
-            <div class="menu">
+            <div class="menu" id="menu">
                 <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Why HelgaInu</a></li>
-                        <li><a href="#">Featurs</a></li>
-                        <li><a href="#">Binifits</a></li>
-                        <li><a href="#">Tokenomics</a></li>
-                        <li><a href="#">RoadMap</a></li>
-                        <li><a href="#">Buy</a></li>
+                    <ul id="scroll_nav">
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="#helgainu">Why HelgaInu</a></li>
+                        <li><a href="#feature">Featurs</a></li>
+                        <li><a href="#benefit">Binifits</a></li>
+                        <li><a href="#tokenomics">Tokenomics</a></li>
+                        <li><a href="#roadmap">RoadMap</a></li>
+                        <li><a href="#buy">Buy</a></li>
                     </ul>
                 </nav>
             </div>
@@ -37,8 +38,8 @@
                 <a href="#">Buy Helga Inu</a>
             </div>
             <div class="bar_icon">
-                <i class="fa fa-bars"></i>
-                <i class="fa fa-times"></i>
+                <i id="barIcon" class="fa fa-bars"></i>
+                <i id="timesIcon" class="fa fa-times"></i>
             </div>
         </div>
     </header>
@@ -48,7 +49,7 @@
 
     <!--==================== banner part start here ====================-->
 
-    <section class="banner_section">
+    <section class="banner_section" id="home">
         <div class="container_fluid">
             <div class="banner_content_item">
                 <div class="banner_content">
@@ -70,7 +71,7 @@
 
 
     <!--==================== why best helgainu part start here ====================-->
-    <section class="helga_inu">
+    <section class="helga_inu" id="helgainu">
         <div class="container_fluid">
             <div class="helga_inu_content_item">
                 <div class="helga_inu_content">
@@ -105,7 +106,7 @@
 
 
     <!--==================== Feature part start here ====================-->
-    <section class="feature_section">
+    <section class="feature_section" id="feature">
         <div class="container_fluid">
             <h1>Features Of <span>Helga Inu</span></h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nobis delectus molestiae eum praesentium id. Earum tempora optio, molestiae ad quos esse! Magnam nemo itaque id corrupti laborum, consectetur doloribus.</p>
@@ -138,7 +139,7 @@
 
     <!--==================== Benifit part start here ====================-->
 
-    <section class="benifit_section">
+    <section class="benifit_section" id="benefit">
         <h1>Benefits Of <span>Helga Inu</span></h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ducimus eaque, adipisci nobis, repellat incidunt, quasi eius dolorem vel sed voluptatibus laudantium doloremque saepe! Nemo aut nam magnam reprehenderit placeat?</p>
         <div class="benefit_container">
@@ -176,21 +177,21 @@
     <!--==================== Benifit part end here ====================-->
 
     <!--==================== tokenomics part start here ====================-->
-    <section class="tokenomics_section">
+    <section class="tokenomics_section" id="tokenomics">
         <div class="container_fluid">
             <h1>Our <span>Tokenomics</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae inventore harum culpa officiis nobis quibusdam. Pariatur, ab quis esse placeat veniam veritatis velit omnis voluptatibus commodi ipsam neque quibusdam repellat.</p>
             <div class="tokenomics_content">
                 <div class="tokenomics">
                     <img src="image/tokenomics.png" alt="image" />
-                    <span>5%</span>
+                    <span>5% <p>Of Each Transaction Added to Liquidity</p></span>
                 </div>
                 <div class="tokenomics_img">
                     <img src="image/helgainu.png" alt="image" />
                 </div>
                 <div class="tokenomics">
                     <img src="image/tokenomics.png" alt="image" />
-                    <span>5%</span>
+                    <span>5% <p>Of Each Transaction Added to Liquidity</p></span>
                 </div>
             </div>
             <div class="document_item">
@@ -208,7 +209,7 @@
     <!--==================== tokenomics part end here ====================-->
 
     <!--==================== Road Map part start here ====================-->
-    <section class="road_map_section" id="map">
+    <section class="road_map_section" id="roadmap">
         <div class="container_fluid">
             <h1>Road Map</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum numquam quis veritatis, explicabo dignissimos, delectus suscipit expedita consequuntur dolore quisquam vel nemo unde iure iste reiciendis aperiam similique provident quasi?</p>
@@ -281,7 +282,7 @@
     <!--==================== Road Map part end here ====================-->
 
     <!--==================== Buy  part end here ====================-->
-    <section class="buy_section">
+    <section class="buy_section" id="buy">
         <div class="container_fluid">
             <div class="buy_content_item">
                 <div class="buy_content">
@@ -292,18 +293,21 @@
                 <div class="buy_tab">
                    <div class="tab_item">
                         <h2 id="tab_1">Step-1</h2>
+                        <i id="tab_icon" class="fas fa-caret-down"></i>
                         <div class="tab1">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis adipisci inventore iure quae harum ad quasi perferendis aspernatur earum dignissimos quibusdam sapiente dolorum explicabo reiciendis, maxime voluptatem quia pariatur.</p>
                         </div>
                    </div>
                    <div class="tab_item">
                         <h2 id="tab_2">Step-2</h2>
+                        <i id="tab_icon_1" class="fas fa-caret-down"></i> 
                         <div class="tab2">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis adipisci inventore iure quae harum ad quasi perferendis aspernatur earum dignissimos quibusdam sapiente dolorum explicabo reiciendis, maxime voluptatem quia pariatur.</p>
                         </div>
                     </div> 
                     <div class="tab_item">
                         <h2 id="tab_3">Step-3</h2>
+                        <i id="tab_icon_2" class="fas fa-caret-down"></i>
                         <div class="tab3">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis adipisci inventore iure quae harum ad quasi perferendis aspernatur earum dignissimos quibusdam sapiente dolorum explicabo reiciendis, maxime voluptatem quia pariatur.</p>
                         </div>
@@ -314,6 +318,97 @@
     </section>
 
     <!--==================== Buy part end here ====================-->
+
+    <!--==================== Social part start here ====================-->
+
+    <section class="social_content_section">
+        <div class="container">
+            <h1>Join Our Community</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ad.</p>
+            <span>See You Soon!</span>
+
+            <div class="social_link">
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== Social part end here ====================-->
+
+
+    <!--==================== footer part start here ====================-->
+
+    <footer class="footer_section">
+        <div class="container_fluid">
+            <div class="footer_content">
+                <div class="footer_logo">
+                    <img src="image/helgainu.png" alt="image" />
+                </div>
+                <div class="others_link">
+                    <h3>Others Link</h3>
+                    <a href="#">Community</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Debit Cart</a>
+                    <a href="#">Cherity</a>
+                </div>
+                <div class="footer_contact">
+                    <input type="email" placeholder="Email Address">
+                    <button>Submit</button>
+
+                    <div class="footer_icon">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy Copyright All rights reserved <span>Helga Inu</span> || 2021</p>
+        </div>
+    </footer>
+
+    <!--==================== footer part end here ====================-->
+
+
+
+
+
+    <!--==================== js ====================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            //smooth scroll
+            $('#scroll_nav').onePageNav();
+
+            //Accourdion function
+            $("#tab_icon").click(function () {
+                $(".tab1").toggle({
+                    transition: ".1s",
+                });
+            });
+
+            $("#tab_icon_1").click(function () {
+                $(".tab2").toggle({
+                    transition: ".1s",
+                });
+            });
+            $("#tab_icon_2").click(function () {
+                $(".tab3").toggle({
+                    transition: ".1s",
+                });
+            });
+
+        });
+    </script>
+
 
 </body>
 

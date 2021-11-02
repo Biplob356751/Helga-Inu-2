@@ -105,7 +105,6 @@ ul{
 .banner_section{
     padding: 100px 0;
     background-color: #f885a3;
-    height: 90vh;
 }
 .banner_section .banner_content_item{
     display: grid;
@@ -391,7 +390,7 @@ ul{
     display: flex;
 }
 .tokenomics img{
-    width: 60%;
+    height: 120px
 }
 .tokenomics span{
     font-size: 70px;
@@ -399,6 +398,12 @@ ul{
     margin-top: 30px;
     font-weight: bold;
     color: #f885a3;
+}
+.tokenomics span p{
+    font-size: 13px;
+    line-height: 20px;
+    width: 100%;
+    text-align: left;
 }
 .document_item{
     display: flex;
@@ -531,13 +536,22 @@ ul{
 }
 .buy_tab h2{
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
     background-color: #2e2b9e;
     cursor: pointer;
 }
 .buy_tab .tab_item{
     margin-bottom: 20px;
+    position: relative;
+}
+.buy_tab .tab_item i{
+    position: absolute;
+    top: 6%;
+    right: 10px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
 }
 .buy_tab .tab1{
     padding: 20px;
@@ -555,6 +569,128 @@ ul{
     display: none;
 }
 
-
-
 /*================= buy style part end here================*/
+
+/*================= social style part start here================*/
+.social_content_section{
+    padding: 70px 0;
+    background-color: #f885a3;
+}
+.social_content_section h1{
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.social_content_section p{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.social_content_section span{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #2e2b9e;
+    font-size: 14px;
+}
+.social_link{
+    margin-top: 50px;
+    text-align: center;
+}
+.social_link a i{
+    width: 70px;
+    font-size: 35px;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: #5d5de6;
+}
+.social_link a:nth-child(2) i{
+    color: #f84077;
+}
+.social_link a:nth-child(3) i{
+    color: blue;
+}
+.social_link a:nth-child(4) i{
+    color: #4cb4dd;
+}
+.social_link a:nth-child(5) i{
+    color: #4897bb;
+}
+.social_link a:nth-child(6) i{
+    color: red;
+}
+/*================= social style part end here================*/
+
+/*================= footer style part end here================*/
+.footer_section{
+    padding: 100px 0;
+    background-color: #f3f3f3;
+    border-top: 1px  solid #e9e9e9;
+}
+.footer_content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:  space-evenly;
+}
+.footer_logo{
+    width: 30%;
+    border-right: 2px solid #f885a3;
+    text-align: center;
+}
+.others_link{
+    width: 30%;
+    border-right: 2px solid #f885a3;
+}
+.others_link h3{
+    color: #323F52;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.others_link a{
+    display: block;
+    color: #514db9;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer_contact{
+    width: 30%;
+}
+.footer_contact input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #f885a3;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #444;
+}
+.footer_contact button{
+    padding: 11px;
+    border: none;
+    background-color: #f885a3;
+    color: #fff;
+    border-radius: 4px;
+}
+.footer_icon{
+    margin-top: 30px;
+}
+.footer_icon a i{
+    font-size: 30px;
+    width: 50px;
+}
+.footer_section p{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 14px;
+    color: #444;
+}
+.footer_section p span{
+    color: #f885a3;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*================= footer style part end here================*/

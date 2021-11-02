@@ -1,0 +1,843 @@
+/*================ Responsive Style End Here ====================*/
+
+@media (max-width: 1225px){
+    .footer_contact input{
+        width: 70%;
+    } 
+}
+@media (max-width: 1200px){
+    .benefit ul::before{
+        left: 4.4%;
+    }
+}
+@media (max-width: 1170px){
+    .header .main_menu .menu ul li a{
+        font-size: 14px;
+        font-weight: 500;
+    } 
+    .header .main_menu .buy_btn{
+        width: 18%;
+    }
+    .banner_content h1{
+        font-size: 34px;
+    }
+    .banner_content_item p{
+        font-size: 14px;
+    }
+    .banner_image img{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .helga_inu_item_1 h3{
+        font-size: 18px;
+    }
+    .helga_inu_item_1 p{
+        font-size: 12px;
+    }
+    .feature{
+        padding: 10px;
+    }
+    .feature h2{
+        font-size: 18px;
+    }
+    .road_map_content_item h4{
+        font-size: 20px;
+    }
+    .road_map_content_item .road_map_content p{
+        font-size: 10px;
+    }
+    .road_map_content_item .road_map_content p i{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 1100px){
+    .tokenomics{
+        padding: 10px;
+    }
+    .tokenomics img{
+        height: 100px;
+    }
+    .tokenomics span{
+        font-size: 50px;
+    }
+    .tokenomics span p{
+       font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px){
+    .header .main_menu .buy_btn a{
+        font-size: 14px;
+    }
+    .helga_inu_content h1{
+        font-size: 30px;
+    }
+    .helga_inu_content p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .feature_section h1{
+        font-size: 30px;
+    }
+    .feature_section p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .benifit_section h1{
+        font-size: 30px;
+    }
+    .benifit_section p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .benefit ul::before{
+        left: 5%;
+    }
+    .tokenomics_section h1{
+        font-size: 30px;
+    }
+    .tokenomics_section p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .road_map_content_item{
+        width: 32%;
+        margin-bottom: 20px;
+    }
+    .road_map_content_item .road_map_content p{
+        font-size: 13px;
+    }
+    .buy_content h1{
+        font-size: 30px;
+    }
+    .buy_content p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .tab_item p{
+        font-size: 14px;
+    }
+    .social_content_section h1{
+        font-size: 30px;
+    }
+    .social_content_section p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+}
+@media (max-width: 992px){
+    .header .main_menu .menu{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        border-top: 1px solid #e9e9e9;
+        padding: 20px;
+        opacity: 0;
+        visibility: hidden;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: .3s;
+
+    }  
+    .header .main_menu .menu ul{
+        flex-direction: column;
+    }
+    .header .main_menu .menu ul li{
+        margin-bottom: 5px;
+    }
+    .header .main_menu .menu ul li a{
+        padding: 10px 20px;
+        display: block;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .active{
+        background-color: #f8f8f8;
+    }
+    .header .main_menu .menu ul li a:hover{
+        background-color: #f8f8f8;
+        border-bottom: none;
+    }
+    .header .main_menu .logo{
+        width: 50%;
+    }
+    .header .main_menu .buy_btn{
+        width: 40%;
+        text-align: right;
+    }
+    .header .main_menu .bar_icon{
+        width: 10%;
+        display: block;
+        top: 5px;
+    }
+    .banner_content h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .banner_content_item p{
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 25px;
+    }
+    .banner_image img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .feature_item{
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 4%;
+    }
+    .benefit ul::before{
+        left: 5.8%;
+    }
+    .benefit ul li h3{
+        font-size: 18px;
+    }
+    .benefit ul li p{
+        width: 100%;
+    }
+    .others_link{
+        border-right: none;
+        width: 50%;
+        text-align: center;
+    }
+    .footer_logo{
+        width: 50%
+    }
+    .footer_contact{
+        width: 80%;
+        margin: 50px auto;
+        text-align: center;
+
+    }
+    .footer_contact input{
+        width: 50%;
+    }
+
+}
+@media (max-width: 970px){
+    .benefit ul::before{
+        left: 5.5%;
+    }
+    .tokenomics{
+        padding: 10px;
+    }
+    .tokenomics img{
+        height: 80px;
+    }
+    .tokenomics span{
+        font-size: 40px;
+    }
+}
+@media (max-width: 900px){
+    .helga_inu_item_1 h3{
+        font-size: 14px;
+    }
+    .helga_inu_item_1{
+        width: 47%;
+        padding: 10px;
+    }
+    .benefit ul::before{
+        left: 6.4%;
+    }
+    .benefit_container{
+        width: 70%;
+    }
+    .benefit ul::before{
+        left: 4.6%;
+    }
+    .document{
+        width: 30%;
+    }
+
+}
+@media (max-width: 885px){
+    .banner_content h1{
+        font-size: 26px;
+    }
+    .banner_content_item a{
+        font-size: 16px;
+    }
+    .tokenomics{
+        flex-direction: column;
+    }
+    .tokenomics img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .tokenomics span{
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+    }
+    .tokenomics span p{
+        text-align: center;
+    }
+}
+@media (max-width: 830px){
+    .benefit ul::before{
+        left: 5.4%;
+    }
+    .road_map_content_item .road_map_content p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .banner_content h1{
+        font-size: 30px;
+    }
+    .banner_content_item a{
+        font-size: 20px;
+    }
+    .banner_section .banner_content_item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner_image img{
+        width: 70%;
+        margin-top: 50px;
+    }
+    .banner_content_item p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .helga_inu_content_item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .helga_inu_item{
+        margin-top: 40px;
+    }
+    .helga_inu_item_1{
+        padding: 15px;
+    }
+    .helga_inu_item_1 h3{
+        font-size: 18px;
+    }
+    .helga_inu_item_1 p{
+       font-size: 14px;
+    }
+    .feature_item{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .feature_section p{
+        width: 100%;
+    }
+    .benifit_section p{
+        width: 90%;
+    }
+    .benefit ul::before{
+        left: 7.5%;
+    }
+    .benefit_container{
+        width: 90%;
+    }
+    .benefit ul::before{
+        left: 4.2%;
+    }
+    .tokenomics{
+        width: 60%;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .tokenomics_content{
+       flex-direction: column;
+    }
+    .tokenomics img{
+        height: 120px
+    }
+    .tokenomics span{
+        font-size: 50px;
+    }
+    .tokenomics span p{
+        font-size: 14px;
+    }
+    .road_map_content_item{
+        width: 47%;
+        padding: 15px;
+    }
+    .road_map_content_item .road_map_content p{
+        font-size: 14px;
+    }
+    .road_map_content_item .road_map_content p i{
+        font-size: 20px;
+    }
+    .buy_content_item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .buy_tab{
+        margin-top: 60px;
+    }
+    .tab_item p{
+        font-size: 16px;
+    }
+    .buy_section{
+        padding: 10px 0 100px 0;
+    }
+    
+}
+@media (max-width: 700px){
+    .benefit ul::before{
+        left: 4.6%;
+    }
+}
+@media (max-width: 675px){
+    .header .main_menu .logo{
+        width: 40%;
+    }
+    .header .main_menu .buy_btn{
+        width: 40%;
+    }
+    .header .main_menu .bar_icon{
+        width: 20%;
+    }
+}
+@media (max-width: 630px){
+    .benefit ul::before{
+        left: 5.1%;
+    }
+}
+@media (max-width: 600px){
+    .footer_contact{
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+
+    }
+    .footer_contact input{
+        width: 60%;
+    }
+    .header{
+        padding: 5px 30px;
+    }
+    .banner_section{
+        padding: 70px 0;
+    }
+    .helga_inu_content h1{
+        font-size: 25px;
+    }
+    .helga_inu_item_1 h3{
+        font-size: 16px;
+    }
+    .helga_inu_item_1 p{
+        font-size: 12px;
+    }
+    .feature_section h1{
+        font-size: 25px;
+    }
+    .feature{
+        padding: 10px;
+    }
+    .feature img{
+        height: 90px;
+        width: 90px;
+    }
+    .feature h2{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .feature p{
+        font-size: 12px;
+    }
+    .benifit_section h1{
+        font-size: 25px;
+    }
+    .benefit ul::before{
+        left: 5.5%;
+    }
+    .tokenomics_section h1{
+        font-size: 25px;
+    }
+    .tokenomics_section p{
+        width: 100%;
+    }
+    .road_map_section h1{
+        font-size: 25px;
+    }
+    .road_map_section p{
+       width: 100%;
+    }
+    .road_map_content_item .road_map_content p{
+        font-size: 12px;
+    }
+    .road_map_content_item{
+        padding: 10px;
+    }
+    .buy_content h1{
+        font-size: 25px;
+    }
+    .buy_content p{
+        width: 90%;
+    }
+    .social_content_section h1{
+        font-size: 25px;
+    }
+    .social_content_section p{
+        width: 100%;
+    }
+
+}
+@media (max-width: 575px){
+    .helga_inu_item_1{
+        width: 100%;
+    }
+    .helga_inu_item_1 h3{
+        font-size: 18px;
+    }
+    .helga_inu_item_1 p{
+        font-size: 14px;
+    }
+    .helga_inu{
+        padding: 50px 0;
+    }
+    .feature_item{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 70px;
+    }
+    .feature h2{
+        font-size: 20px;
+    }
+    .feature p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .feature{
+        padding: 20px;
+    }
+    .benifit_section h1{
+        margin-top: 100px;
+    }
+    .benefit ul li h3{
+        font-size: 16px;
+    }
+    .benefit ul li p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .tokenomics img{
+        height: 100px
+    }
+    .document{
+        width: 48%;
+        margin-right: 0;
+        margin: 10px;
+    }
+    .document_item{
+        margin-top: 50px;
+    }
+    .road_map_content_item{
+        width: 100%;
+        padding: 20px;
+    }
+    .road_map_content_item h4{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .road_map_content_item .road_map_content p{
+        font-size: 15px;
+    }
+    .social_link a i{
+        width: 57px;
+        font-size: 28px;
+    }
+}
+@media (max-width: 540px){
+    .benefit ul::before{
+        left: 6.1%;
+    }
+    .tokenomics img{
+        height: 80px
+    }
+    .tokenomics span{
+        font-size: 40px;
+    }
+    .tokenomics_img img{
+        width: 80%;
+    }
+}
+@media (max-width: 500px){
+    .benefit ul::before{
+        left: 6.5%;
+    }
+
+}
+@media (max-width: 475px){
+    .header .main_menu .logo img{
+       height: 70px;
+    }
+    .header .main_menu .buy_btn a{
+        font-size: 13px;
+    }
+    .header .main_menu .bar_icon i{
+       font-size: 18px;
+    }
+    .banner_content h1{
+        font-size: 25px;
+    }
+    .banner_content_item p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .banner_content_item a{
+        font-size: 16px;
+    }
+    .helga_inu_content h1{
+        font-size: 23px;
+    }
+    .feature_section h1{
+        font-size: 23px;
+    }
+    .feature_section p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .benifit_section h1{
+        font-size: 23px;
+    }
+    .benifit_section p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .benefit ul li .benefit_item{
+        padding: 10px;
+        width: 80%;
+        margin-left: 50px;
+    }
+    .benefit ul li span{
+        width: 40px;
+        height: 40px;
+    }
+    .benefit ul::before{
+        left: 4.7%;
+    }
+    .tokenomics_section h1{
+        font-size: 23px;
+    }
+    .tokenomics_section p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .tokenomics{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .tokenomics img{
+        height: 130px
+    }
+    .tokenomics span{
+        font-size: 50px;
+    }
+    .road_map_section h1{
+        font-size: 23px;
+    }
+    .road_map_section p{
+       font-size: 14px;
+       line-height: 25px;
+    }
+    .buy_content h1{
+        font-size: 23px;
+    }
+    .buy_content p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .buy_tab .tab1{
+        padding: 10px;
+    }
+    .buy_tab .tab2{
+        padding: 10px;
+    }
+    .buy_tab .tab3{
+        padding: 10px;
+    }
+    .tab_item p{
+        font-size: 14px;
+    }
+    .social_content_section h1{
+        font-size: 23px;
+    }
+    .social_content_section p{
+       font-size: 14px;
+       line-height: 25px;
+    }
+    .social_link a i{
+        width: 50px;
+        font-size: 28px;
+        padding: 10px;
+    }
+
+}
+@media (max-width: 425px){
+    .footer_logo{
+        width: 100%;
+        border-right: none;
+    }
+    .others_link{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .footer_contact{
+        margin-top: 40px;
+    }
+    .footer_section p{
+        margin-top: 50px;
+    }
+    .benefit ul::before{
+        left: 5.2%;
+    }
+    .document h3{
+        font-size: 16px;
+    }
+    .document{
+        padding: 10px;
+    }
+    .road_map_content_item h4{
+        font-size: 20px;
+    }
+    .buy_content a{
+        font-size: 14px;
+    }
+    .social_link a i{
+        width: 45px;
+        font-size: 25px;
+    }
+    .footer_section{
+        padding: 70px 0;
+    }
+    .header .main_menu .menu ul li a{
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 375px){
+    .header .main_menu .logo img{
+        height: 60px;
+     }
+     .header .main_menu .logo{
+         width: 30%;
+     }
+     .header .main_menu .buy_btn a{
+         font-size: 12px;
+     }
+     .header .main_menu .buy_btn{
+         width: 50%;
+     }
+     .header .main_menu .bar_icon i{
+        font-size: 16px;
+     }
+     .header .main_menu .bar_icon{
+         width: 20%;
+     }
+     .header{
+        padding: 5px 20px;
+    }
+    .banner_content h1{
+        font-size: 22px;
+    }
+    .banner_content_item p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .banner_content_item a{
+        font-size: 13px;
+    }
+    .helga_inu_content h4{
+        font-size: 14px;
+    }
+    .helga_inu_content h1{
+        font-size: 20px;
+    }
+    .helga_inu_content p{
+        font-size: 12px;
+    }
+    .helga_inu_item_1 p{
+        font-size: 13px;
+    }
+    .feature_section h1{
+        font-size: 20px;
+    }
+    .feature_section p{
+        font-size: 12px;
+    }
+    .feature h2{
+        font-size: 17px;
+    }
+    .benefit ul li h3{
+        font-size: 14px;
+    }
+    .benefit ul li p{
+        line-height: 20px;
+    }
+    .benefit ul::before{
+        left: 6%;
+    }
+    .benifit_section h1{
+        font-size: 20px;
+    }
+    .benifit_section p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .tokenomics_section h1{
+        font-size: 20px;
+    }
+    .tokenomics_section p{
+        font-size: 12px;
+    }
+    .tokenomics img{
+        height: 100px
+    }
+    .tokenomics span{
+        font-size: 40px;
+    }
+    .document h3{
+        font-size: 14px;
+    }
+    .road_map_section h1{
+        font-size: 20px;
+    }
+    .road_map_content_item .road_map_content p{
+        font-size: 14px;
+    }
+    .buy_content h1{
+        font-size: 20px;
+    }
+    .buy_content p{
+        line-height: 23px;
+    }
+    .buy_tab h2{
+        font-size: 16px;
+    }
+    .social_content_section h1{
+        font-size: 20px;
+    }
+    .social_link a i{
+        width: 40px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 340px){
+    .benefit ul::before{
+        left: 6.5%;
+    }
+    .road_map_content_item .road_map_content p{
+        font-size: 13px;
+    }
+    .road_map_content_item .road_map_content p i{
+        font-size: 17px;
+    }    
+}
+
+
+/*================ Responsive Style End Here ====================*/
