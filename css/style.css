@@ -59,10 +59,10 @@ ul{
 .header .main_menu .menu ul li a{
     font-size: 16px;
     font-weight: 600;
-    color: #f885a3;
+    color: #093D90;
 }
 .header .main_menu .menu ul li a:hover{
-    border-bottom: 2px solid #f885a3;
+    border-bottom: 2px solid #093D90;
 }
 .header .main_menu .buy_btn{
     width: 13%;
@@ -70,7 +70,7 @@ ul{
 }
 .header .main_menu .buy_btn a{
     padding: 10px 14px;
-    background-color: #2e2b9e;
+    background-color: #093D90;
     border-radius: 50px;
     color: #fff;
     font-weight: 600;
@@ -87,8 +87,8 @@ ul{
     right: 0;
     font-size: 20px;
     padding: 6px 12px;
-    border: 2px solid #f885a3;
-    color: #f885a3;
+    border: 2px solid #093D90;
+    color: #093D90;
     cursor: pointer;
 }
 .header .main_menu .bar_icon i:nth-child(2){
@@ -104,7 +104,7 @@ ul{
 /*================= banner style part start here================*/
 .banner_section{
     padding: 100px 0;
-    background-color: #f885a3;
+    background-color: #093D90;
 }
 .banner_section .banner_content_item{
     display: grid;
@@ -114,7 +114,7 @@ ul{
 .banner_content h1{
     margin-top: 30px;
     font-size: 40px;
-    color: #323F52;
+    color: #fff;
 }
 .banner_content_item p{
     margin-top: 20px;
@@ -127,11 +127,11 @@ ul{
     display: inline-block;
     margin-top: 40px;
     padding: 12px 20px;
-    color: #fff;
+    color: #093D90;
     font-size: 20px;
     font-weight: 600;
     border-radius: 50px;
-    background-color: #2e2b9e;
+    background-color: #fff;
 }
 .banner_image img{
     width: 100%;
@@ -172,7 +172,7 @@ ul{
     margin-top: 20px;
 }
 .helga_inu_content h1 span{
-    color: #f885a3;
+    color: #093D90;
 }
 .helga_inu_content p{
     width: 90%;
@@ -191,7 +191,7 @@ ul{
 .helga_inu_item_1{
     width: 47%;
     padding: 20px;
-    box-shadow: 0px 0px 5px 1px #f8c5d3;
+    box-shadow: 0px 0px 5px 1px #83aef1;
     margin-bottom: 20px;
     border-radius: 5px;
 }
@@ -223,7 +223,7 @@ ul{
     margin-bottom: 10px;
 }
 .feature_section h1 span{
-    color: #f885a3;
+    color: #093D90;
 }
 .feature_section p{
     width: 80%;
@@ -241,7 +241,7 @@ ul{
     margin-top: 100px;
 }
 .feature{
-    border: 1px solid #f885a3;
+    border: 1px solid #093D90;
     border-radius: 5px;
     padding: 20px;
 }
@@ -283,7 +283,7 @@ ul{
     margin-bottom: 10px;
 }
 .benifit_section h1 span{
-    color: #f885a3;
+    color: #093D90;
 }
 .benifit_section p{
     text-align: center;
@@ -304,7 +304,7 @@ ul{
 .benefit ul::before{
     content: '';
     position: absolute;
-    background-color: #f885a3;
+    background-color: #093D90;
     width: 2px;
     height: 100%;
     top: 0%;
@@ -317,7 +317,7 @@ ul{
 .benefit ul li .benefit_item{
     width: 80%;
     padding: 20px;
-    border: 1px solid #f885a3;
+    border: 1px solid #093D90;
     margin-left: 80px;
     margin-top: 8px;
     border-radius: 4px;
@@ -331,7 +331,7 @@ ul{
     height: 60px;
     background-color: #F9FAFB;
     border-radius: 50%;
-    border: 2px solid #f885a3;
+    border: 2px solid #093D90;
     text-align: center;
 }
 .benefit ul li h3{
@@ -354,7 +354,7 @@ ul{
 /*================= tokenomics style part start here================*/
 .tokenomics_section{
     padding: 100px 0;
-    background-color: #2e2b9e;
+    background-color: #093D90;
 }
 .tokenomics_section h1{
     text-align: center;
@@ -363,7 +363,7 @@ ul{
     margin-bottom: 10px;  
 }
 .tokenomics_section h1 span{
-    color: #f885a3;
+    color: #fff;
 }
 .tokenomics_section p{
     width: 80%;
@@ -397,7 +397,7 @@ ul{
     display: inline-block;
     margin-top: 30px;
     font-weight: bold;
-    color: #f885a3;
+    color: #fff;
 }
 .tokenomics span p{
     font-size: 13px;
@@ -414,7 +414,7 @@ ul{
 .document{
     width: 20%;
     padding: 20px;
-    border: 1px solid #f885a3;
+    border: 1px solid #ddd;
     border-radius: 5px;
     margin-right: 20px;
     text-align: center;
@@ -459,7 +459,7 @@ ul{
 }
 .road_map_content_item{
     width: 23%;
-    box-shadow: 0px 0px 4px 1px #ffedd1;
+    box-shadow: 0px 0px 4px 1px #accafc;
     padding: 15px;
     border-radius: 4px;
 }
@@ -478,7 +478,7 @@ ul{
 
 .road_map_content_item h4{
     text-align: center;
-    color: #f885a3;
+    color: #093D90;
     font-size: 25px;
     font-weight: normal;
     margin-top: 10px;
@@ -516,7 +516,7 @@ ul{
     margin-bottom: 20px;
 }
 .buy_content h1 span{
-    color: #f885a3;
+    color: #093D90;
 }
 .buy_content p{
     width: 90%;
@@ -529,7 +529,7 @@ ul{
     display: inline-block;
     margin-top: 30px;
     padding: 12px 20px;
-    background-color: #2e2b9e;
+    background-color: #093D90;
     color: #fff;
     border-radius: 50px;
     font-weight: 600;
@@ -538,7 +538,7 @@ ul{
     color: #fff;
     font-size: 18px;
     padding: 10px;
-    background-color: #2e2b9e;
+    background-color: #093D90;
     cursor: pointer;
 }
 .buy_tab .tab_item{
@@ -555,17 +555,17 @@ ul{
 }
 .buy_tab .tab1{
     padding: 20px;
-    border: 1px solid #2e2b9e;
+    border: 1px solid #093D90;
     /* display: none; */
 }
 .buy_tab .tab2{
     padding: 20px;
-    border: 1px solid #2e2b9e;
+    border: 1px solid #093D90;
     display: none;
 }
 .buy_tab .tab3{
     padding: 20px;
-    border: 1px solid #2e2b9e;
+    border: 1px solid #093D90;
     display: none;
 }
 
@@ -574,7 +574,7 @@ ul{
 /*================= social style part start here================*/
 .social_content_section{
     padding: 70px 0;
-    background-color: #f885a3;
+    background-color: #093D90;
 }
 .social_content_section h1{
     font-size: 34px;
@@ -637,12 +637,12 @@ ul{
 }
 .footer_logo{
     width: 30%;
-    border-right: 2px solid #f885a3;
+    border-right: 2px solid #093D90;
     text-align: center;
 }
 .others_link{
     width: 30%;
-    border-right: 2px solid #f885a3;
+    border-right: 2px solid #093D90;
 }
 .others_link h3{
     color: #323F52;
@@ -662,7 +662,7 @@ ul{
 .footer_contact input{
     width: 80%;
     padding: 10px;
-    border: 1px solid #f885a3;
+    border: 1px solid #093D90;
     border-radius: 5px;
     margin-top: 30px;
     color: #444;
@@ -670,7 +670,7 @@ ul{
 .footer_contact button{
     padding: 11px;
     border: none;
-    background-color: #f885a3;
+    background-color: #093D90;
     color: #fff;
     border-radius: 4px;
 }
@@ -680,6 +680,7 @@ ul{
 .footer_icon a i{
     font-size: 30px;
     width: 50px;
+    color: #093D90;
 }
 .footer_section p{
     text-align: center;
@@ -688,7 +689,7 @@ ul{
     color: #444;
 }
 .footer_section p span{
-    color: #f885a3;
+    color: #093D90;
     font-size: 16px;
     font-weight: bold;
 }
