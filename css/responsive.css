@@ -18,16 +18,8 @@
     .header .main_menu .buy_btn{
         width: 18%;
     }
-    .banner_content h1{
-        font-size: 34px;
-    }
-    .banner_content_item p{
+    .banner_content p{
         font-size: 14px;
-    }
-    .banner_image img{
-        width: 90%;
-        display: block;
-        margin: auto;
     }
     .helga_inu_item_1 h3{
         font-size: 18px;
@@ -64,6 +56,17 @@
     }
     .tokenomics span p{
        font-size: 12px;
+    }
+    .banner_content h1{
+        font-size: 25px;
+    }
+    .banner_content p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .banner_content a{
+        padding: 10px 20px;
+        font-size: 16px;
     }
 }
 
@@ -176,19 +179,6 @@
         display: block;
         top: 5px;
     }
-    .banner_content h1{
-        font-size: 30px;
-        margin-top: 10px;
-    }
-    .banner_content_item p{
-        font-size: 14px;
-        font-weight: normal;
-        line-height: 25px;
-    }
-    .banner_image img{
-        width: 100%;
-        margin-top: 30px;
-    }
     .feature_item{
         grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 4%;
@@ -235,6 +225,19 @@
         font-size: 40px;
     }
 }
+@media (max-width: 960px){
+    .banner_content h1{
+        font-size: 20px;
+    } 
+    .banner_content p{
+        font-size: 11px;
+        width: 100%;
+    }
+    .banner_content a{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+ }
 @media (max-width: 900px){
     .helga_inu_item_1 h3{
         font-size: 14px;
@@ -258,12 +261,6 @@
 
 }
 @media (max-width: 885px){
-    .banner_content h1{
-        font-size: 26px;
-    }
-    .banner_content_item a{
-        font-size: 16px;
-    }
     .tokenomics{
         flex-direction: column;
     }
@@ -289,25 +286,13 @@
         font-size: 10px;
     }
 }
-
-@media (max-width: 768px){
-    .banner_content h1{
-        font-size: 30px;
-    }
-    .banner_content_item a{
-        font-size: 20px;
-    }
-    .banner_section .banner_content_item{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .banner_image img{
+@media (max-width: 800px){
+    .banner_content{
         width: 70%;
-        margin-top: 50px;
+        top: 10%;
     }
-    .banner_content_item p{
-        font-size: 16px;
-        line-height: 28px;
-    }
+ }
+@media (max-width: 768px){
     .helga_inu_content_item{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -398,6 +383,10 @@
     .header .main_menu .bar_icon{
         width: 20%;
     }
+    .banner_content{
+        width: 80%;
+        padding: 15px;
+    }
 }
 @media (max-width: 630px){
     .benefit ul::before{
@@ -409,16 +398,26 @@
         width: 100%;
         margin: 50px auto;
         text-align: center;
-
     }
     .footer_contact input{
         width: 60%;
     }
+    .banner_content{
+        width: 90%;
+        left: 5%;
+    }
+    .banner_content h1{
+        font-size: 17px;
+    }
+    .banner_content p{
+        font-size: 10px;
+    }
+    .banner_content a{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
     .header{
         padding: 5px 30px;
-    }
-    .banner_section{
-        padding: 70px 0;
     }
     .helga_inu_content h1{
         font-size: 25px;
@@ -562,6 +561,11 @@
     .tokenomics_img img{
         width: 80%;
     }
+    .banner_content{
+        padding: 10px;
+        top: 5%;
+    }
+    
 }
 @media (max-width: 500px){
     .benefit ul::before{
@@ -580,14 +584,14 @@
        font-size: 18px;
     }
     .banner_content h1{
-        font-size: 25px;
+        font-size: 15px;
     }
-    .banner_content_item p{
-        font-size: 14px;
-        line-height: 25px;
+    .banner_content p{
+        margin-top: 5px;
+        line-height: 20px;
     }
-    .banner_content_item a{
-        font-size: 16px;
+    .banner_content a{
+        font-size: 12px;
     }
     .helga_inu_content h1{
         font-size: 23px;
@@ -676,6 +680,15 @@
     }
 
 }
+@media (max-width: 440px){
+    .banner_content h1{
+        font-size: 14px;
+    }
+    .banner_content a{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
 @media (max-width: 425px){
     .footer_logo{
         width: 100%;
@@ -717,6 +730,12 @@
         font-size: 14px;
         padding: 10px;
     }
+    .banner_content{
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 97%;
+    }
 }
 
 @media (max-width: 375px){
@@ -742,14 +761,14 @@
         padding: 5px 20px;
     }
     .banner_content h1{
-        font-size: 22px;
+        font-size: 14px;
     }
-    .banner_content_item p{
-        font-size: 12px;
-        line-height: 20px;
+    .banner_content p{
+        font-size: 10px;
+        line-height: 16px;
     }
-    .banner_content_item a{
-        font-size: 13px;
+    .banner_content a{
+        font-size: 11px;
     }
     .helga_inu_content h4{
         font-size: 14px;
@@ -837,6 +856,16 @@
     .road_map_content_item .road_map_content p i{
         font-size: 17px;
     }    
+    .banner_content h1{
+        font-size: 12px;
+    }
+    .banner_content p{
+        font-size: 8px;
+    }
+    .banner_content a{
+        font-size: 11px;
+        padding: 8px 15px;
+    }
 }
 
 
