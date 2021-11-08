@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #150333;
 }
 .container{
     width: 80%;
@@ -27,9 +28,8 @@ ul{
 
 /*================= header style part start here================*/
 .header{
-    background-color: #fff;
+    background-color: #150333;
     padding: 5px 50px;
-    box-shadow: 0px 0px 4px 1px #ececec;
     position: sticky;
     width: 100%;
     top: 0;
@@ -59,10 +59,10 @@ ul{
 .header .main_menu .menu ul li a{
     font-size: 16px;
     font-weight: 600;
-    color: #093D90;
+    color: #e9e9e9;
 }
 .header .main_menu .menu ul li a:hover{
-    border-bottom: 2px solid #093D90;
+    border-bottom: 2px solid #e9e9e9;
 }
 .header .main_menu .buy_btn{
     width: 13%;
@@ -70,10 +70,13 @@ ul{
 }
 .header .main_menu .buy_btn a{
     padding: 10px 14px;
-    background-color: #093D90;
+    background-color: #ddd;
     border-radius: 50px;
-    color: #fff;
+    color: #150333;
     font-weight: 600;
+}
+.header .main_menu .buy_btn a:focus{
+    outline: none;
 }
 .header .main_menu .bar_icon{
     width: 7%;
@@ -87,12 +90,12 @@ ul{
     right: 0;
     font-size: 20px;
     padding: 6px 12px;
-    border: 2px solid #093D90;
-    color: #093D90;
+    border: 2px solid #ddd;
+    color: #ddd;
     cursor: pointer;
 }
 .header .main_menu .bar_icon i:nth-child(2){
-    padding: 6px 15px;
+    padding: 6px 14px;
     opacity: 0;
     visibility: hidden;
 }
@@ -103,28 +106,21 @@ ul{
 
 /*================= banner style part start here================*/
 .banner_section{
-    position: relative;
-}
-.banner_section video{
-    width: 100%;
+    overflow: hidden;
+    padding: 60px 0;
 }
 .banner_content{
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 55%;
-    background: linear-gradient(rgba(97, 94, 94, 0.5), rgba(97, 94, 94, 0.5));
-    padding: 20px;
-    border-radius: 5px;
+  text-align: center;
 }
 .banner_content h1{
-    margin-top: 10px;
-    font-size: 30px;
-    color: #fff;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #e9e9e9;
 }
 .banner_content p{
-    margin-top: 20px;
-    color: #fff;
+    width: 60%;
+    margin: 20px auto;
+    color: #e9e9e9;
     font-size: 14px;
     line-height: 28px;
     font-weight: 500;
@@ -133,12 +129,15 @@ ul{
     display: inline-block;
     margin-top: 40px;
     padding: 12px 20px;
-    color: #093D90;
+    color: #150333;
     font-size: 20px;
     font-weight: 600;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #ddd;
     margin-bottom: 30px;
+}
+.banner_content a:focus{
+    outline: none
 }
 
 /*================= banner style part end here================*/
@@ -146,7 +145,7 @@ ul{
 /*================= helgainu style part end here================*/
 .helga_inu{
     padding: 100px 0;
-    background: #fff;
+    background-color: #14042e;
 }
 .helga_inu_content_item{
     display: grid;
@@ -155,24 +154,24 @@ ul{
 }
 .helga_inu_content h4{
     margin-top: 50px;
-    color: #444;
+    color: #e9e9e9;
     font-size: 17px;
     font-weight: 600;
 }
 .helga_inu_content h1{
-    color: #323F52;
+    color: #e8e8e8;
     font-size: 34px;
     margin-top: 20px;
 }
 .helga_inu_content h1 span{
-    color: #093D90;
+    color: #8640be;
 }
 .helga_inu_content p{
     width: 90%;
     margin-top: 10px;
     font-size: 16px;
     line-height: 28px;
-    color: #444;
+    color: #e9e9e9e9;
     font-weight: 500;
 }
 .helga_inu_item{
@@ -184,19 +183,20 @@ ul{
 .helga_inu_item_1{
     width: 47%;
     padding: 20px;
-    box-shadow: 0px 0px 5px 1px #83aef1;
+    box-shadow: 0px 0px 5px 1px #532579;
     margin-bottom: 20px;
     border-radius: 5px;
+    background-image: linear-gradient(rgb(18, 2, 43) -31.15%, rgb(25, 3, 59) 69.48%);
 }
 .helga_inu_item_1 h3{
-    color: #323F52;
+    color: #e9e9e9;
     font-size: 20px;
     font-weight: 600;
 }
 .helga_inu_item_1 p{
     margin: 10px;
     font-size: 14px;
-    color: #444;
+    color: #e9e9e9;
     width: 100%;
     margin-left: 0;
 }
@@ -207,25 +207,16 @@ ul{
 /*================= feature style part end here================*/
 .feature_section{
     padding: 80px 0;
-    background-color: #fff;
+    background-color: #150333;
 }
 .feature_section h1{
     text-align: center;
-    color: #323F52;
+    color: #e9e9e9;
     font-size: 34px;
     margin-bottom: 10px;
 }
 .feature_section h1 span{
-    color: #093D90;
-}
-.feature_section p{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    color: #444;
-    line-height: 28px;
-    font-size: 16px;
-    font-weight: 500;
+    color: #8640be;
 }
 .feature_item{
     display: grid;
@@ -234,20 +225,19 @@ ul{
     margin-top: 100px;
 }
 .feature{
-    border: 1px solid #093D90;
+    border: 1px solid #4b1f6e;
     border-radius: 5px;
     padding: 20px;
+    background-image: linear-gradient(rgb(34, 5, 85) -31.15%, rgb(23, 4, 51) 69.48%);
 }
 .feature img{
-    width: 40%;
     display: block;
-    margin: auto;
+    margin-top: 20px;
+    height: 60px;
 }
 .feature h2{
-    text-align: center;
-    margin-top: 20px;
     font-size: 20px;
-    color: #323F52;
+    color: #e9e9e9;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -256,14 +246,14 @@ ul{
     margin-left: 0;
     font-size: 12px;
     line-height: 20px;
-    color: #444;
+    color: #e9e9e9;
 }
 /*================= feature style part end here================*/
 
 /*================= benifits style part start here================*/
 .benifit_section{
     padding: 100px 0;
-    background-color: #fff;
+    background-color: #14042e;
 }
 .benefit_container{
     width: 55%;
@@ -271,12 +261,12 @@ ul{
 }
 .benifit_section h1{
     text-align: center;
-    color: #323F52;
+    color: #e9e9e9;
     font-size: 34px;
     margin-bottom: 10px;
 }
 .benifit_section h1 span{
-    color: #093D90;
+    color: #8640be;
 }
 .benifit_section p{
     text-align: center;
@@ -284,7 +274,7 @@ ul{
     margin: auto;
     font-size: 16px;
     font-weight: 500;
-    color: #444;
+    color: #e9e9e9;
 }
 .benefit{
     margin-top: 100px;
@@ -297,7 +287,7 @@ ul{
 .benefit ul::before{
     content: '';
     position: absolute;
-    background-color: #093D90;
+    background-color: #3f197e;
     width: 2px;
     height: 100%;
     top: 0%;
@@ -310,11 +300,13 @@ ul{
 .benefit ul li .benefit_item{
     width: 80%;
     padding: 20px;
-    border: 1px solid #093D90;
+    border: 1px solid #3f197e;
     margin-left: 80px;
     margin-top: 8px;
     border-radius: 4px;
     margin-bottom: 30px;
+    background-image: linear-gradient(rgb(34, 5, 85) -31.15%, rgb(23, 4, 51) 69.48%);
+
 }
 .benefit ul li span{
     position: absolute;
@@ -322,20 +314,20 @@ ul{
     top: 0px;
     width: 60px;
     height: 60px;
-    background-color: #F9FAFB;
+    background-color: #e9e9e9;
     border-radius: 50%;
-    border: 2px solid #093D90;
+    border: 2px solid #3f197e;
     text-align: center;
 }
 .benefit ul li h3{
-    color: #323F52;
+    color: #e9e9e9;
     font-size: 20px;
 }
 .benefit ul li p{
     text-align: left;
     width: 90%;
     font-size: 14px;
-    color: #444;
+    color: #d9d9d9;
     line-height: 25px;
     margin-top: 10px;
     margin-left: 0;
@@ -347,16 +339,15 @@ ul{
 /*================= tokenomics style part start here================*/
 .tokenomics_section{
     padding: 100px 0;
-    background-color: #093D90;
 }
 .tokenomics_section h1{
     text-align: center;
-    color: #fff;
+    color: #e9e9e9;
     font-size: 34px;
     margin-bottom: 10px;  
 }
 .tokenomics_section h1 span{
-    color: #fff;
+    color: #e9e9e9;
 }
 .tokenomics_section p{
     width: 80%;
@@ -364,7 +355,7 @@ ul{
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    color: #fff;
+    color: #d1d1d1;
     line-height: 28px;
 }
 .tokenomics_content{
@@ -376,7 +367,7 @@ ul{
 .tokenomics{
     width: 30%;
     padding: 20px;
-    box-shadow: 0px 0px 3px 1px #514db9;
+    box-shadow: 0px 0px 3px 1px #532579;
     border-radius: 50px;
 }
 .tokenomics{
@@ -414,10 +405,10 @@ ul{
 }
 .document h3{
     font-size: 20px;
-    color: #fff;
+    color: #e9e9e9;
 }
 .document a{
-    color: #fff;
+    color: #e9e9e9;
     font-size: 12px;
     margin-top: 10px;
     display: block;
@@ -428,19 +419,19 @@ ul{
 /*================= roadmap style part start here================*/
 .road_map_section{
     padding: 100px 0;
-    background-color: #fff;
+    background-color: #14042e;
 }
 .road_map_section h1{
     text-align: center;
     font-size: 34px;
-    color: #323F52;
+    color: #e9e9e9;
     margin-bottom: 10px;
 }
 .road_map_section p{
     width: 80%;
     margin: auto;
     font-size: 16px;
-    color: #444;
+    color: #e9e9e9;
     text-align: center;
     line-height: 28px;
 }
@@ -452,26 +443,15 @@ ul{
 }
 .road_map_content_item{
     width: 23%;
-    box-shadow: 0px 0px 4px 1px #accafc;
+    box-shadow: 0px 0px 4px 1px #532579;
     padding: 15px;
     border-radius: 4px;
-}
-.road_map_content_item .road_1{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #2e2b9e;
-    color: #fff;
-    font-weight: 600;
-    text-align: center;
-    font-size: 25px;
-    line-height: 48px;
-    margin: auto;
-}
+    background-image: linear-gradient(rgb(36, 16, 71) -51.15%, rgb(21, 5, 41) 49.48%);
 
+}
 .road_map_content_item h4{
     text-align: center;
-    color: #093D90;
+    color: #d1d1d1;
     font-size: 25px;
     font-weight: normal;
     margin-top: 10px;
@@ -496,7 +476,6 @@ ul{
 /*================= buy style part start here================*/
 .buy_section{
     padding: 100px 0;
-    background-color: #fff;
 }
 .buy_content_item{
     display: grid;
@@ -505,16 +484,16 @@ ul{
 }
 .buy_content h1{
     font-size: 34px;
-    color: #323F52;
+    color: #e9e9e9;
     margin-bottom: 20px;
 }
 .buy_content h1 span{
-    color: #093D90;
+    color: #8640be;
 }
 .buy_content p{
     width: 90%;
     font-size: 16px;
-    color: #444;
+    color: #d1d1d1;
     line-height: 28px;
     font-weight: 500;
 }
@@ -522,43 +501,44 @@ ul{
     display: inline-block;
     margin-top: 30px;
     padding: 12px 20px;
-    background-color: #093D90;
-    color: #fff;
+    background-color: #ddd;
+    color: #150333;
     border-radius: 50px;
     font-weight: 600;
 }
 .buy_tab h2{
-    color: #fff;
+    color: #150333;
     font-size: 18px;
     padding: 10px;
-    background-color: #093D90;
+    background-color: #c9cefc;
     cursor: pointer;
 }
 .buy_tab .tab_item{
     margin-bottom: 20px;
     position: relative;
+    color: #ddd;
 }
 .buy_tab .tab_item i{
     position: absolute;
     top: 6%;
     right: 10px;
-    color: #fff;
+    color: #14042e;
     font-size: 25px;
     cursor: pointer;
 }
 .buy_tab .tab1{
     padding: 20px;
-    border: 1px solid #093D90;
+    border: 1px solid #c9cefc;
     /* display: none; */
 }
 .buy_tab .tab2{
     padding: 20px;
-    border: 1px solid #093D90;
+    border: 1px solid #e9e9e9;
     display: none;
 }
 .buy_tab .tab3{
     padding: 20px;
-    border: 1px solid #093D90;
+    border: 1px solid #e9e9e9;
     display: none;
 }
 
@@ -567,17 +547,17 @@ ul{
 /*================= social style part start here================*/
 .social_content_section{
     padding: 70px 0;
-    background-color: #093D90;
+    background-image: linear-gradient(rgb(39, 11, 83) -31.15%, rgb(20, 6, 43) 69.48%);
 }
 .social_content_section h1{
     font-size: 34px;
-    color: #fff;
+    color: #e9e9e9;
     text-align: center;
     margin-bottom: 10px;
 }
 .social_content_section p{
     text-align: center;
-    color: #fff;
+    color: #e9e9e9;
     font-weight: 500;
     font-size: 16px;
 }
@@ -595,7 +575,7 @@ ul{
 .social_link a i{
     width: 70px;
     font-size: 35px;
-    background-color: #fff;
+    background-color: #ddd;
     padding: 15px 10px;
     border-radius: 5px;
     color: #5d5de6;
@@ -630,21 +610,21 @@ ul{
 }
 .footer_logo{
     width: 30%;
-    border-right: 2px solid #093D90;
+    border-right: 2px solid #150333;
     text-align: center;
 }
 .others_link{
     width: 30%;
-    border-right: 2px solid #093D90;
+    border-right: 2px solid #150333;
 }
 .others_link h3{
-    color: #323F52;
+    color: #150333;
     font-size: 20px;
     margin-bottom: 10px;
 }
 .others_link a{
     display: block;
-    color: #514db9;
+    color: #150333;
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -655,7 +635,7 @@ ul{
 .footer_contact input{
     width: 80%;
     padding: 10px;
-    border: 1px solid #093D90;
+    border: 1px solid #150333;
     border-radius: 5px;
     margin-top: 30px;
     color: #444;
@@ -663,7 +643,7 @@ ul{
 .footer_contact button{
     padding: 11px;
     border: none;
-    background-color: #093D90;
+    background-image: linear-gradient(rgb(34, 13, 70) -51.15%, rgb(21, 5, 41) 49.48%);
     color: #fff;
     border-radius: 4px;
 }
@@ -673,7 +653,7 @@ ul{
 .footer_icon a i{
     font-size: 30px;
     width: 50px;
-    color: #093D90;
+    color: #150333;
 }
 .footer_section p{
     text-align: center;
@@ -682,7 +662,7 @@ ul{
     color: #444;
 }
 .footer_section p span{
-    color: #093D90;
+    color: #150333;
     font-size: 16px;
     font-weight: bold;
 }
