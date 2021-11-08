@@ -163,6 +163,13 @@
     .active{
         background-color: #1e0742;
     }
+    .header .main_menu .menu ul li a::after{
+        content: "";
+        display: block;
+        width: 0%;
+        height: 0;
+        background-color: transparent;
+    }
     .header .main_menu .menu ul li a:hover{
         background-color: #1e0742;
         border-bottom: none;
