@@ -164,7 +164,7 @@ ul{
     margin-top: 20px;
 }
 .helga_inu_content h1 span{
-    color: #8640be;
+    color: #581391;
 }
 .helga_inu_content p{
     width: 90%;
@@ -183,7 +183,7 @@ ul{
 .helga_inu_item_1{
     width: 47%;
     padding: 20px;
-    box-shadow: 0px 0px 5px 1px #532579;
+    box-shadow: 0px 0px 4px 1px #390266;
     margin-bottom: 20px;
     border-radius: 5px;
     background-image: linear-gradient(rgb(18, 2, 43) -31.15%, rgb(25, 3, 59) 69.48%);
@@ -216,7 +216,7 @@ ul{
     margin-bottom: 10px;
 }
 .feature_section h1 span{
-    color: #8640be;
+    color: #581391;
 }
 .feature_item{
     display: grid;
@@ -225,7 +225,7 @@ ul{
     margin-top: 100px;
 }
 .feature{
-    border: 1px solid #4b1f6e;
+    border: 1px solid #380563;
     border-radius: 5px;
     padding: 20px;
     background-image: linear-gradient(rgb(34, 5, 85) -31.15%, rgb(23, 4, 51) 69.48%);
@@ -266,7 +266,7 @@ ul{
     margin-bottom: 10px;
 }
 .benifit_section h1 span{
-    color: #8640be;
+    color: #581391;
 }
 .benifit_section p{
     text-align: center;
@@ -287,7 +287,7 @@ ul{
 .benefit ul::before{
     content: '';
     position: absolute;
-    background-color: #3f197e;
+    background-color: #33045a;
     width: 2px;
     height: 100%;
     top: 0%;
@@ -300,7 +300,7 @@ ul{
 .benefit ul li .benefit_item{
     width: 80%;
     padding: 20px;
-    border: 1px solid #3f197e;
+    border: 1px solid #380563;
     margin-left: 80px;
     margin-top: 8px;
     border-radius: 4px;
@@ -367,7 +367,7 @@ ul{
 .tokenomics{
     width: 30%;
     padding: 20px;
-    box-shadow: 0px 0px 3px 1px #532579;
+    box-shadow: 0px 0px 3px 1px #390464;
     border-radius: 50px;
 }
 .tokenomics{
@@ -443,7 +443,7 @@ ul{
 }
 .road_map_content_item{
     width: 23%;
-    box-shadow: 0px 0px 4px 1px #532579;
+    box-shadow: 0px 0px 4px 1px #581391;
     padding: 15px;
     border-radius: 4px;
     background-image: linear-gradient(rgb(36, 16, 71) -51.15%, rgb(21, 5, 41) 49.48%);
@@ -488,7 +488,7 @@ ul{
     margin-bottom: 20px;
 }
 .buy_content h1 span{
-    color: #8640be;
+    color: #581391;
 }
 .buy_content p{
     width: 90%;
@@ -510,7 +510,7 @@ ul{
     color: #150333;
     font-size: 18px;
     padding: 10px;
-    background-color: #c9cefc;
+    background-color: #ddd;
     cursor: pointer;
 }
 .buy_tab .tab_item{
@@ -528,7 +528,7 @@ ul{
 }
 .buy_tab .tab1{
     padding: 20px;
-    border: 1px solid #c9cefc;
+    border: 1px solid #ddd;
     /* display: none; */
 }
 .buy_tab .tab2{
