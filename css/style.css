@@ -560,4 +560,10 @@ ul{
     font-weight: bold;
 }
 
+.first-image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 /*================= footer style part end here================*/
