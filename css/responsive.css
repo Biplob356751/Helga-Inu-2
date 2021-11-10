@@ -235,9 +235,6 @@
     }
 }
 @media (max-width: 900px){
-    .helga_inu_item_1 h3{
-        font-size: 14px;
-    }
     .helga_inu_item_1{
         width: 47%;
         padding: 10px;
@@ -657,9 +654,6 @@
     }
     .banner_content a{
         font-size: 13px;
-    }
-    .helga_inu_content h4{
-        font-size: 14px;
     }
     .helga_inu_content h1{
         font-size: 20px;
