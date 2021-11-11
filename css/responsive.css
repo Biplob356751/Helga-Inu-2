@@ -40,18 +40,7 @@
 
 }
 @media (max-width: 1100px){
-    .tokenomics{
-        padding: 10px;
-    }
-    .tokenomics img{
-        height: 100px;
-    }
-    .tokenomics span{
-        font-size: 50px;
-    }
-    .tokenomics span p{
-       font-size: 12px;
-    }
+    
     .banner_content h1{
         font-size: 35px;
     }
@@ -85,13 +74,6 @@
         font-size: 11px;
         line-height: 20px;
     }
-    .tokenomics_section h1{
-        font-size: 30px;
-    }
-    .tokenomics_section p{
-        font-size: 14px;
-        line-height: 25px;
-    }
     .road_map_content_item{
         width: 32%;
         margin-bottom: 20px;
@@ -115,6 +97,15 @@
     .social_content_section p{
         font-size: 14px;
         line-height: 25px;
+    }
+    .tokenomics_right_content{
+        margin-top: 10px;
+    }
+    .tokenomics .tokenomics_left_img img{
+        width: 70%;
+    }
+    .tokenomics_section h1{
+        font-size: 30px;
     }
 
 }
@@ -223,40 +214,22 @@
         margin-top: 20px;
     }
 }
-@media (max-width: 970px){
-    .tokenomics{
-        padding: 10px;
-    }
-    .tokenomics img{
-        height: 80px;
-    }
-    .tokenomics span{
-        font-size: 40px;
-    }
-}
 @media (max-width: 900px){
     .helga_inu_item_1{
         width: 47%;
         padding: 10px;
     }
-
-}
-@media (max-width: 885px){
-    .tokenomics{
-        flex-direction: column;
-    }
-    .tokenomics img{
-        width: 50%;
-        display: block;
-        margin: auto;
-    }
-    .tokenomics span{
-        text-align: center;
-        display: block;
+    .tokenomics_right_content{
         margin-top: 10px;
     }
-    .tokenomics span p{
-        text-align: center;
+    .tokenomics .tokenomics_left_img img{
+        width: 80%;
+    }
+
+}
+@media (max-width: 850px){
+    .tokenomics_right_content ul li{
+        font-size: 18px;
     }
 }
 @media (max-width: 830px){
@@ -276,24 +249,7 @@
         font-size: 12px;
         line-height: 24px;
     }
-    .tokenomics{
-        width: 60%;
-        padding: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-    .tokenomics_content{
-       flex-direction: column;
-    }
-    .tokenomics img{
-        height: 120px
-    }
-    .tokenomics span{
-        font-size: 50px;
-    }
-    .tokenomics span p{
-        font-size: 14px;
-    }
+    
     .road_map_content_item{
         width: 47%;
         padding: 15px;
@@ -323,6 +279,24 @@
         margin-top: 20px;
         font-size: 15px;
     }
+    .tokenomics{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .tokenomics .tokenomics_left_img img{
+        width: 50%;
+    }
+    .tokenomics_right_content{
+        width: 33%;
+    }
+    .tokenomics_header_img img{
+        width: 25%;
+    }
+    
+}
+@media (max-width: 700px){
+    .tokenomics_right_content{
+        width: 33%;
+    } 
     
 }
 @media (max-width: 675px){
@@ -335,6 +309,15 @@
     .header .main_menu .bar_icon{
         width: 20%;
     }
+    .tokenomics_right_content{
+        width: 36%;
+    } 
+}
+@media (max-width: 650px){
+    .tokenomics_right_content{
+        width: 39%;
+    } 
+    
 }
 @media (max-width: 600px){
     .footer_contact{
@@ -378,12 +361,6 @@
     .feature p{
         font-size: 12px;
     }
-    .tokenomics_section h1{
-        font-size: 25px;
-    }
-    .tokenomics_section p{
-        width: 100%;
-    }
     .road_map_section h1{
         font-size: 25px;
     }
@@ -407,6 +384,12 @@
     }
     .social_content_section p{
         width: 100%;
+    }
+    .tokenomics_right_content{
+        width: 42%;
+    } 
+    .tokenomics_section h1{
+        font-size: 25px;
     }
 
 }
@@ -437,12 +420,6 @@
     .feature{
         padding: 20px;
     }
-    .tokenomics_section{
-        padding: 150px 0 60px 0;
-    }
-    .tokenomics img{
-        height: 100px
-    }
     .road_map_content_item{
         width: 100%;
         padding: 20px;
@@ -458,17 +435,31 @@
         width: 57px;
         font-size: 28px;
     }
+    .tokenomics_right_content{
+        width: 42%;
+    } 
+    .tokenomics{
+        margin-top: 70px;
+    }
+    .tokenomics .tokenomics_left_img img{
+        width: 65%;
+    }
+    .tokenomics_right_content ul li div{
+        width: 17px;
+        height: 17px;
+    }
+    .tokenomics_section{
+        padding: 150px 0 50px 0;
+    }
+    .tokenomics_header_img img{
+        width: 27%;
+    }
 }
-@media (max-width: 540px){
-    .tokenomics img{
-        height: 80px
-    }
-    .tokenomics span{
-        font-size: 40px;
-    }
-    .tokenomics_img img{
-        width: 80%;
-    }
+@media (max-width: 525px){
+    .tokenomics_right_content{
+        width: 45%;
+    } 
+    
 }
 @media (max-width: 500px){
     .banner_content h1{
@@ -478,6 +469,9 @@
         font-size: 14px;
         line-height: 23px;
     }
+    .tokenomics_right_content{
+        width: 46%;
+    } 
     
 }
 @media (max-width: 475px){
@@ -506,23 +500,7 @@
         font-size: 14px;
         line-height: 25px;
     }
-    .tokenomics_section h1{
-        font-size: 23px;
-    }
-    .tokenomics_section p{
-        font-size: 14px;
-        line-height: 25px;
-    }
-    .tokenomics{
-        width: 100%;
-        margin-top: 0px;
-    }
-    .tokenomics img{
-        height: 130px
-    }
-    .tokenomics span{
-        font-size: 50px;
-    }
+    
     .road_map_section{
         padding: 60px 0;
     }
@@ -569,7 +547,21 @@
     .road_map{
         margin-top: 60px;
     }
-
+    .tokenomics_section{
+        padding: 180px 0 50px 0;
+    }
+    .tokenomics_right_content{
+        width: 50%;
+    } 
+    .tokenomics_right_content ul li{
+        font-size: 17px;
+    }
+    .tokenomics_section h1{
+        font-size: 23px;
+    }
+    .tokenomics_header_img img{
+        width: 30%;
+    }
 }
 @media (max-width: 440px){
     .banner_content h1{
@@ -621,6 +613,10 @@
     .banner_content h1{
         margin-bottom: 10px;
     } 
+    .tokenomics_right_content{
+        width: 58%;
+    } 
+    
 }
 
 @media (max-width: 375px){
@@ -673,18 +669,6 @@
     .feature h2{
         font-size: 17px;
     }
-    .tokenomics_section h1{
-        font-size: 20px;
-    }
-    .tokenomics_section p{
-        font-size: 12px;
-    }
-    .tokenomics img{
-        height: 100px
-    }
-    .tokenomics span{
-        font-size: 40px;
-    }
     .document h3{
         font-size: 14px;
     }
@@ -719,6 +703,18 @@
     .buy_tab .tab_item p{
         font-size: 12px;
     }
+    .tokenomics_right_content{
+        width: 62%;
+    } 
+    .tokenomics_right_content ul li{
+        font-size: 16px;
+    }
+    .tokenomics .tokenomics_left_img img{
+        width: 80%;
+    }
+    .tokenomics_header_img img{
+        width: 35%;
+    }
 }
 @media (max-width: 340px){
     .road_map_content_item .road_map_content p{
@@ -737,6 +733,9 @@
         font-size: 13px;
         padding: 10px 16px;
     }
+    .tokenomics_right_content{
+        width: 65%;
+    } 
 }
 
 
