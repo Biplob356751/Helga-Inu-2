@@ -221,7 +221,7 @@ ul{
 }
 .feature_item{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2%;
     margin-top: 100px;
 }
@@ -230,6 +230,9 @@ ul{
     border-radius: 5px;
     padding: 20px;
     background-image: linear-gradient(rgb(34, 5, 85) -31.15%, rgb(23, 4, 51) 69.48%);
+}
+.ft1 img{
+    width: 150px !important;
 }
 .feature img{
     display: block;
@@ -440,6 +443,9 @@ ul{
     padding: 20px;
     border: 1px solid #e9e9e9;
     display: none;
+}
+.tab_item p{
+    line-height: 35px;
 }
 
 /*================= buy style part end here================*/
