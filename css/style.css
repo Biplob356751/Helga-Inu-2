@@ -270,23 +270,9 @@ ul{
     grid-gap: 3%;
     margin-top: 100px;
 }
-<<<<<<< HEAD
 .tokenomics .tokenomics_left_img img{
     width: 60%;
     display: block;
-=======
-.tokenomics_section h4{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    color: #d1d1d1;
-    line-height: 28px;
-}
-.tokenomics_section p{
-    width: 80%;
->>>>>>> c51ee5f04e694facbd2ce0506d234d81f9be03d6
     margin: auto;
 }
 .tokenomics_right_content{
