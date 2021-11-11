@@ -265,6 +265,15 @@ ul{
 .tokenomics_section h1 span{
     color: #896fd5;
 }
+.tokenomics_section h4{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #d1d1d1;
+    line-height: 28px;
+}
 .tokenomics_section p{
     width: 80%;
     margin: auto;
@@ -440,17 +449,20 @@ ul{
 /*================= social style part start here================*/
 .social_content_section{
     padding: 70px 0;
-    background-image: linear-gradient(rgb(39, 11, 83) -31.15%, rgb(20, 6, 43) 69.48%);
+    /* background-image: linear-gradient(rgb(39, 11, 83) -31.15%, rgb(20, 6, 43) 69.48%);s */
+    background-color: #f3f3f3;
 }
 .social_content_section h1{
     font-size: 34px;
-    color: #e9e9e9;
+    /* color: #e9e9e9; */
+    color: rgb(39, 11, 83);
     text-align: center;
     margin-bottom: 10px;
 }
 .social_content_section p{
     text-align: center;
-    color: #e9e9e9;
+    /* color: #e9e9e9; */
+    color:rgb(39, 11, 83);
     font-weight: 500;
     font-size: 16px;
 }
