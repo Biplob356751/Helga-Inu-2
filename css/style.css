@@ -203,7 +203,6 @@ ul{
     margin-left: 0;
 }
 
-
 /*================= helgainu style part end here================*/
 
 /*================= feature style part end here================*/
@@ -255,16 +254,27 @@ ul{
 /*================= tokenomics style part start here================*/
 .tokenomics_section{
     padding: 100px 0;
+    background-color: #14042e;
+}
+.tokenomics_header_img{
+    text-align: center;
 }
 .tokenomics_section h1{
-    text-align: center;
     color: #e9e9e9;
     font-size: 34px;
     margin-bottom: 10px;  
 }
-.tokenomics_section h1 span{
-    color: #896fd5;
+.tokenomics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3%;
+    margin-top: 100px;
 }
+<<<<<<< HEAD
+.tokenomics .tokenomics_left_img img{
+    width: 60%;
+    display: block;
+=======
 .tokenomics_section h4{
     width: 80%;
     margin: auto;
@@ -276,43 +286,44 @@ ul{
 }
 .tokenomics_section p{
     width: 80%;
+>>>>>>> c51ee5f04e694facbd2ce0506d234d81f9be03d6
     margin: auto;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    color: #d1d1d1;
-    line-height: 28px;
 }
-.tokenomics_content{
-    margin-top: 100px;
+.tokenomics_right_content{
+    width: 60%;
+    margin: 20px auto;
+}
+.tokenomics_right_content ul li{
     display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 20px;
     align-items: center;
+    color: #e9e9e9;
+    font-size: 20px;
 }
-.tokenomics{
-    width: 30%;
-    padding: 20px;
-    box-shadow: 0px 0px 3px 1px #160549;
-    border-radius: 50px;
+.tokenomics_right_content ul li div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #A648D4;
+    margin-right: 20px;
 }
-.tokenomics{
-    display: flex;
+.tokenomics_right_content ul li:nth-child(2) div{
+    background-color: #cc1141;
 }
-.tokenomics img{
-    height: 120px
+.tokenomics_right_content ul li:nth-child(3) div{
+    background-color: #ff8e01;
 }
-.tokenomics span{
-    font-size: 70px;
-    display: inline-block;
-    margin-top: 30px;
-    font-weight: bold;
-    color: #fff;
+.tokenomics_right_content ul li:nth-child(4) div{
+    background-color: #767fda;
 }
-.tokenomics span p{
-    font-size: 13px;
-    line-height: 20px;
-    width: 100%;
-    text-align: left;
+.tokenomics_right_content ul li:nth-child(5) div{
+    background-color: #350072;
+}
+.tokenomics_right_content ul li:nth-child(6) div{
+    background-color: #6f026b;
+}
+.tokenomics_right_content ul li:nth-child(7) div{
+    background-color: #d10d42;
 }
 
 
@@ -321,7 +332,7 @@ ul{
 /*================= roadmap style part start here================*/
 .road_map_section{
     padding: 100px 0;
-    background-color: #14042e;
+    background-color: #150333;
 }
 .road_map_section h1{
     text-align: center;
@@ -378,6 +389,7 @@ ul{
 /*================= buy style part start here================*/
 .buy_section{
     padding: 100px 0;
+    background-color: #14042e;
 }
 .buy_content_item{
     display: grid;
