@@ -110,57 +110,11 @@
 
 }
 @media (max-width: 992px){
-    .header .main_menu .menu{
-        width: 100%;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: #150333;
-        border-top: 1px solid #320d6d;
-        padding: 20px;
-        opacity: 0;
-        visibility: hidden;
-        transform-origin: top;
-        transform: scaleY(0);
-        transition: .3s;
-    }  
-    .header .main_menu .menu ul{
-        flex-direction: column;
-    }
-    .header .main_menu .menu ul li{
-        margin-bottom: 5px;
-    }
-    .header .main_menu .menu ul li a{
-        padding: 10px 20px;
-        display: block;
-        font-size: 16px;
-        border-radius: 5px;
-    }
-    .active{
-        background-color: #1e0742;
-    }
-    .header .main_menu .menu ul li a::after{
-        content: "";
-        display: block;
-        width: 0%;
-        height: 0;
-        background-color: transparent;
-    }
-    .header .main_menu .menu ul li a:hover{
-        background-color: #1e0742;
-        border-bottom: none;
-    }
     .header .main_menu .logo{
-        width: 50%;
+        width: 30%;
     }
-    .header .main_menu .buy_btn{
-        width: 40%;
-        text-align: right;
-    }
-    .header .main_menu .bar_icon{
-        width: 10%;
-        display: block;
-        top: 5px;
+    .header .main_menu .menu{
+        width: 70%;
     }
     .helga_inu_content_item{
         grid-template-columns: repeat(1, 1fr);
@@ -231,6 +185,12 @@
     .tokenomics_right_content ul li{
         font-size: 18px;
     }
+    .header .main_menu .logo{
+        width: 20%;
+    }
+    .header .main_menu .menu{
+        width: 80%;
+    }
 }
 @media (max-width: 830px){
     .road_map_content_item .road_map_content p{
@@ -291,6 +251,56 @@
     .tokenomics_header_img img{
         width: 25%;
     }
+    .header .main_menu .menu{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #150333;
+        padding: 20px;
+        opacity: 0;
+        visibility: hidden;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: .3s;
+    }  
+    .header .main_menu .menu ul{
+        flex-direction: column;
+    }
+    .header .main_menu .menu ul li{
+        margin-bottom: 5px;
+    }
+    .header .main_menu .menu ul li a{
+        padding: 10px 20px;
+        display: block;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .active{
+        background-color: #1e0742;
+    }
+    .header .main_menu .menu ul li a::after{
+        content: "";
+        display: block;
+        width: 0%;
+        height: 0;
+        background-color: transparent;
+    }
+    .header .main_menu .menu ul li a:hover{
+        background-color: #1e0742;
+        border-bottom: none;
+    }
+    .header .main_menu .logo{
+        width: 50%;
+    }
+    .header .main_menu .logo img{
+        height: 75px;
+    }
+    .header .main_menu .bar_icon{
+        width: 50%;
+        display: block;
+        top: 5px;
+    }
     
 }
 @media (max-width: 700px){
@@ -300,15 +310,6 @@
     
 }
 @media (max-width: 675px){
-    .header .main_menu .logo{
-        width: 40%;
-    }
-    .header .main_menu .buy_btn{
-        width: 40%;
-    }
-    .header .main_menu .bar_icon{
-        width: 20%;
-    }
     .tokenomics_right_content{
         width: 36%;
     } 
@@ -623,20 +624,8 @@
     .header .main_menu .logo img{
         height: 60px;
      }
-     .header .main_menu .logo{
-         width: 30%;
-     }
-     .header .main_menu .buy_btn a{
-         font-size: 12px;
-     }
-     .header .main_menu .buy_btn{
-         width: 50%;
-     }
      .header .main_menu .bar_icon i{
         font-size: 16px;
-     }
-     .header .main_menu .bar_icon{
-         width: 20%;
      }
      .header{
         padding: 5px 20px;
