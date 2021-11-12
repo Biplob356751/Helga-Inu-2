@@ -46,6 +46,13 @@ ul{
     font-size: 8px;
     font-style: italic;
 }
+
+.quote_heading_2 h4 {
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+}
+
 .header .main_menu{
     display: flex;
     justify-content: space-evenly;
@@ -111,11 +118,17 @@ ul{
 /*================= banner style part start here================*/
 .banner_section{
     overflow: hidden;
-    padding: 60px 0;
+    padding: 0px 0;
 }
 .banner_content{
   text-align: center;
 }
+
+
+.banner_content_2 {
+    text-align: center;
+  }
+
 .banner_content h1{
     margin-top: 50px;
     font-size: 45px;
