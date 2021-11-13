@@ -10,9 +10,6 @@
         font-size: 14px;
         font-weight: 500;
     } 
-    .header .main_menu .buy_btn{
-        width: 18%;
-    }
     .banner_content p{
         font-size: 14px;
     }
@@ -56,8 +53,11 @@
 }
 
 @media (max-width: 1024px){
-    .header .main_menu .buy_btn a{
-        font-size: 14px;
+    .header .main_menu .logo{
+        width: 30%;
+    }
+    .header .main_menu .menu{
+        width: 65%
     }
     .helga_inu_content h1{
         font-size: 30px;
@@ -168,6 +168,14 @@
         margin-top: 20px;
     }
 }
+@media(max-width: 950px){
+    .header .main_menu .logo{
+        width: 20%;
+    }
+    .header .main_menu .menu{
+        width: 80%
+    }
+}
 @media (max-width: 900px){
     .helga_inu_item_1{
         width: 47%;
@@ -195,6 +203,9 @@
 @media (max-width: 830px){
     .road_map_content_item .road_map_content p{
         font-size: 10px;
+    }
+    .header .main_menu .menu ul li a{
+        font-size: 13px;
     }
 }
 @media (max-width: 768px){
@@ -562,6 +573,9 @@
     }
     .tokenomics_header_img img{
         width: 30%;
+    }
+    .banner_content h4{
+        font-size: 12px;
     }
 }
 @media (max-width: 440px){
